@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "inter tight light";
+  src: url("./fonts/inter-tight-light.ttf");
+}
+@font-face {
+  font-family: "inter tight medium";
+  src: url("./fonts/inter-tight-medium.ttf");
+}
+
+@font-face {
+  font-family: "inter tight semibold";
+  src: url("./fonts/inter-tight-semibold.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+
+* {
+  font-family: "inter tight medium";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-spacer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+
+  height: 12vh;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 10vh;
+}
+
+.breadcrumbs-title {
+  margin-left: 20px;
+}

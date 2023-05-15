@@ -1,0 +1,19 @@
+{
+  "kind": "app",
+  "storage": "aws",
+  "name": "Emptea Leaderboards",
+  "version": "0.1.9",
+  "description": "Transparent charting.",
+  "website": "https://dual.finance",
+  "tag": "defi",
+  "contact": "https://discord.gg/P3uH9AvEp5",
+  "entrypoints": {
+    "default": {
+      "web": "./dist/index.html"
+    }
+  },
+  "icon": {
+    "md": "./assets/dual_logo.png"
+  },
+  "screenshots": ["./assets/DF_Backpack.png"]
+}
