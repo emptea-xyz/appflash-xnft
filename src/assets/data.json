@@ -1,0 +1,97 @@
+[
+	{
+		"name": "Backpack",
+		"description": "A home for xNFT's.",
+		"tags": [
+			"Wallet",
+			"xNFT"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1593111895195762690/1fS4-upH_400x400.jpg",
+		"project_url": "https://backpack.app"
+	},
+	{
+		"name": "Dexlab",
+		"description": "Dexlab makes launching on Solana easy.",
+		"tags": [
+			"DeFi",
+			"DEX"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1454495077938569220/XtskNz7M_400x400.jpg",
+		"project_url": "https://dexlab.space"
+	},
+	{
+		"name": "Firedancer",
+		"description": "A new independent validator client for Solana.",
+		"tags": [
+			"Infrastructure"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1569334548961296386/pfOR09ui_400x400.jpg",
+		"project_url": "https://firedancer.io"
+	},
+	{
+		"name": "Glow",
+		"description": "Your new favorite solana wallet.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1575292428172525570/s4XLMSbk_400x400.jpg",
+		"project_url": "https://glow.app"
+	},
+	{
+		"name": "Helius",
+		"description": "On a mission to accelerate the creation of crypto-powered software.",
+		"tags": [
+			"Infrastructure"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1542698757078261762/M5kiXdij_400x400.jpg",
+		"project_url": "https://helius.xyz"
+	},
+	{
+		"name": "Marinade Finance",
+		"description": "Leading liquid-staking platform supporting Solana decentralization.",
+		"tags": [
+			"DeFi",
+			"Staking"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1474400780350275588/7aUnnIC8_400x400.jpg",
+		"project_url": "https://marinade.finance"
+	},
+	{
+		"name": "Orca",
+		"description": "DeFi for people, not programs.",
+		"tags": [
+			"DeFi",
+			"DEX"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1610367899662680065/uXPPqPvd_400x400.jpg",
+		"project_url": "https://orca.so"
+	},
+	{
+		"name": "Phantom",
+		"description": "The -wallet for everyone.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
+		"project_url": "https://phantom.app"
+	},
+	{
+		"name": "Raydium",
+		"description": "An on-chain order book AMM powering the evolution of DeFi.",
+		"tags": [
+			"DeFi",
+			"DEX"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1432652054665723904/glv2HQ1o_400x400.jpg",
+		"project_url": "https://raydium.io"
+	},
+	{
+		"name": "Solflare",
+		"description": "-wallet for solana.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1612378388555091968/1lD4q5R9_400x400.jpg",
+		"project_url": "https://solflare.com"
+	}
+]

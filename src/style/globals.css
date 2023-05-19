@@ -52,7 +52,7 @@ a {
   justify-content: center;
   width: 100vw;
 
-  height: 12vh;
+  height: 10vh;
   margin: 0;
   padding: 0;
 }
@@ -69,8 +69,13 @@ a {
   padding: 0;
   width: 100vw;
   height: 10vh;
+
+  background-color: white;
 }
 
 .breadcrumbs-title {
   margin-left: 20px;
+  font-family: "inter tight semibold";
 }
+
+
