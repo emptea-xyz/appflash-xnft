@@ -36,6 +36,7 @@ export default function Home() {
 
   const [id, setId] = useState(0);
   const [showDetails, setShowDetails] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
 
   const getItems = async () => {
     const url =
@@ -43,8 +44,8 @@ export default function Home() {
     const response = fetch(url.toString())
       .then((Response) => Response.json())
       .then((result) => {
-        setAllItems(data);
-        setItems(data);
+        setAllItems(result);
+        setItems(result);
       })
       .then(() => setLoaded(true));
   };
@@ -52,7 +53,10 @@ export default function Home() {
   const searchByName = (tag: string) => {
     const filtered = [];
     for (let i = 0; i < allItems.length; i++) {
-      if (allItems[i].name.toLowerCase().includes(tag.toLowerCase())) {
+      if (
+        allItems[i].name.toLowerCase().includes(tag.toLowerCase()) ||
+        allItems[i].tags.toString().toLowerCase().includes(tag.toLowerCase())
+      ) {
         filtered.push(allItems[i]);
       }
     }
@@ -65,23 +69,20 @@ export default function Home() {
   return (
     <div className="home">
       <div className="breadcrumbs">
-        <div className="breadcrumbs-title">Emptea Catalog</div>
+        <div className="breadcrumbs-title">
+          Emptea <span>Catalog</span>
+        </div>
       </div>
       <div className="top-spacer"></div>
       <div className="search-bar-container">
         <div className="search-bar">
-          <button className="filter-button">
-            <FontAwesomeIcon icon={faFilter} />
-          </button>
           <input
             type="text"
             onChange={(e) => {
               searchByName(e.target.value);
             }}
+            placeholder="search for an app or a tag..."
           />
-          <button className="search-button">
-            <FontAwesomeIcon icon={faSearch} />
-          </button>
         </div>
       </div>
       <div className="blender-top"></div>
@@ -137,10 +138,15 @@ export default function Home() {
       </div>
       <div className="blender-bottom"></div>
       <div className="socials">
-        <button>
+        <button
+          onClick={() => {
+            setId(Math.floor(Math.random() * items.length));
+            setShowDetails(true);
+          }}
+        >
           <FontAwesomeIcon icon={faRandom} />
         </button>
-        <button>
+        <button onClick={() => setShowHelp(true)}>
           <FontAwesomeIcon icon={faQuestion} />
         </button>
       </div>
@@ -189,6 +195,45 @@ export default function Home() {
                       {tag}
                     </div>
                   ))}
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+        {showHelp && (
+          <motion.div
+            className="details"
+            onClick={() => setShowHelp(false)}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2, delay: 0.2 }}
+          >
+            <motion.div
+              className="help-panel"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="details-panel-content">
+                <div className="details-panel-name">
+                  A brief introduction...
+                </div>
+                <div className="details-panel-description">
+                  There are thousands of products being released on Solana
+                  everyday. How should we keep track of all of them?
+                  <br />
+                  <br />
+                  Presenting Emptea catalog.
+                  <br />
+                  <br />
+                  Emptea catalog is a service built by emptea. With our app you
+                  can access every product and service on Solana with one app.
+                  <br />
+                  <br />
+                  To list your project create a pull request under
+                  github.com/emptea-xyz/data.
+                  <br />
+                  <br />
+                  Make also sure to follow @EmpteaXYZ on twitter!
                 </div>
               </div>
             </motion.div>

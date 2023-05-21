@@ -1,8 +1,8 @@
 {
-  "name": "Sporting F1",
-  "description": "Sporting F1 is an F1 Fantasy League consisting of 2,000 cars. NFT traits make race prediction and earn points. The top 100 players of the 2023 season will receive prizes.",
-  "external_url": "https://twitter.com/sportinglabs",
-  "image": "https://xnfts.s3.us-west-2.amazonaws.com/DjJUy3ZDndb3vdWKVDEhp8o9PUHUQcYShJYsnKEQD1qy/manifest/0b1129f301/assets/icon.png",
+  "name": "Catalog",
+  "description": "Emptea catalog is a service built by emptea. With our app you can access every product and service on Solana with one app.",
+  "external_url": "https://twitter.com/empteaxyz",
+  "image": "https://bafkreic33p5mizpzqmpzh77dy3ejqjx7okpzu6mwhsg2xywlrbsyd7kwc4.ipfs.nftstorage.link/",
   "properties": {},
   "xnft": {
     "version": "0.0.1",
@@ -13,7 +13,7 @@
         }
       },
       "icon": {
-        "md": "https://xnfts.s3.us-west-2.amazonaws.com/DjJUy3ZDndb3vdWKVDEhp8o9PUHUQcYShJYsnKEQD1qy/manifest/0b1129f301/assets/icon.png"
+        "md": "https://bafkreic33p5mizpzqmpzh77dy3ejqjx7okpzu6mwhsg2xywlrbsyd7kwc4.ipfs.nftstorage.link/"
       },
       "screenshots": [
         {
@@ -37,7 +37,9 @@
     "contact": {
       "repository": "https://github.com/sportinglabs/sporting-xnft"
     },
-    "programIds": ["9ZskGH9wtdwM9UXjBq1KDwuaLfrZyPChz41Hx7NWhTFf"],
+    "programIds": [
+      "9ZskGH9wtdwM9UXjBq1KDwuaLfrZyPChz41Hx7NWhTFf"
+    ],
     "history": []
   }
 }

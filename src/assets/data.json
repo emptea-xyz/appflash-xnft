@@ -10,6 +10,33 @@
 		"project_url": "https://backpack.app"
 	},
 	{
+		"name": "Glow",
+		"description": "Your new favorite solana wallet.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1575292428172525570/s4XLMSbk_400x400.jpg",
+		"project_url": "https://glow.app"
+	},
+	{
+		"name": "Phantom",
+		"description": "The -wallet for everyone.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
+		"project_url": "https://phantom.app"
+	},
+	{
+		"name": "Solflare",
+		"description": "-wallet for solana.",
+		"tags": [
+			"Wallet"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1612378388555091968/1lD4q5R9_400x400.jpg",
+		"project_url": "https://solflare.com"
+	},
+	{
 		"name": "Dexlab",
 		"description": "Dexlab makes launching on Solana easy.",
 		"tags": [
@@ -20,34 +47,7 @@
 		"project_url": "https://dexlab.space"
 	},
 	{
-		"name": "Firedancer",
-		"description": "A new independent validator client for Solana.",
-		"tags": [
-			"Infrastructure"
-		],
-		"image_url": "https://pbs.twimg.com/profile_images/1569334548961296386/pfOR09ui_400x400.jpg",
-		"project_url": "https://firedancer.io"
-	},
-	{
-		"name": "Glow",
-		"description": "Your new favorite solana wallet.",
-		"tags": [
-			"Wallet"
-		],
-		"image_url": "https://pbs.twimg.com/profile_images/1575292428172525570/s4XLMSbk_400x400.jpg",
-		"project_url": "https://glow.app"
-	},
-	{
-		"name": "Helius",
-		"description": "On a mission to accelerate the creation of crypto-powered software.",
-		"tags": [
-			"Infrastructure"
-		],
-		"image_url": "https://pbs.twimg.com/profile_images/1542698757078261762/M5kiXdij_400x400.jpg",
-		"project_url": "https://helius.xyz"
-	},
-	{
-		"name": "Marinade Finance",
+		"name": "Marinade",
 		"description": "Leading liquid-staking platform supporting Solana decentralization.",
 		"tags": [
 			"DeFi",
@@ -67,18 +67,6 @@
 		"project_url": "https://orca.so"
 	},
 	{
-		"name": "Phantom",
-		"description": "The web3-wallet for everyone.",
-		"tags": [
-			"web3",
-			"multichain",
-			"swap",
-			"Wallet"
-		],
-		"image_url": "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
-		"project_url": "https://phantom.app"
-	},
-	{
 		"name": "Raydium",
 		"description": "An on-chain order book AMM powering the evolution of DeFi.",
 		"tags": [
@@ -89,12 +77,134 @@
 		"project_url": "https://raydium.io"
 	},
 	{
-		"name": "Solflare",
-		"description": "-wallet for solana.",
+		"name": "Elusiv",
+		"description": "Building Web3’s universal encryption layer for a secure decentralized world.",
 		"tags": [
+			"Privacy",
+			"Infrastructure"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1588185632668635136/s5Mr_4AM_400x400.jpg",
+		"project_url": "https://elusiv.io"
+	},
+	{
+		"name": "Helium",
+		"description": "Helium represents a paradigm shift for decentralized wireless infrastructure.",
+		"tags": [
+			"Infrastructure",
+			"Mobile",
+			"DePIN"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1308416884434444291/aoNGZ6zz_400x400.jpg",
+		"project_url": "https://helium.com"
+	},
+	{
+		"name": "Helius",
+		"description": "On a mission to accelerate the creation of crypto-powered software.",
+		"tags": [
+			"Infrastructure"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1542698757078261762/M5kiXdij_400x400.jpg",
+		"project_url": "https://helius.xyz"
+	},
+	{
+		"name": "Hivemapper",
+		"description": "The world’s first crypto-enabled dashcam represents a fundamental shift in how maps are built.",
+		"tags": [
+			"Infrastructure"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1452753067565150209/0vNHg64c_400x400.jpg",
+		"project_url": "https://hivemapper.com"
+	},
+	{
+		"name": "Squads Protocol",
+		"description": "Developer and treasury asset management for Solana and SVM simplified.",
+		"tags": [
+			"Infrastructure",
+			"Team-management",
+			"Wallet",
+			"Multisig"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1606314789222989828/u1EFiKJF_400x400.jpg",
+		"project_url": "https://squads.so"
+	},
+	{
+		"name": "GenesysGo",
+		"description": "Decentralized Performant Scalable web3 data storage",
+		"tags": [
+			"Infrastructure",
+			"Storage",
+			"Cloud"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1573020355022782464/FOW1khTJ_400x400.jpg",
+		"project_url": "https://shadow.cloud"
+	},
+	{
+		"name": "Dialect",
+		"description": "Decentralized instant messaging service.",
+		"tags": [
+			"Instant messaging",
+			"NFT's",
+			"Social Media"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1544387492794830851/sbrwP4rH_400x400.jpg",
+		"project_url": "https://dialect.to"
+	},
+	{
+		"name": "Sporting Labs",
+		"description": "Mint, Stake, and Compete in Fantasy Sports Leagues.",
+		"tags": [
+			"Gaming",
+			"Fantasy Leagues",
+			"Sports"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1649080419617492993/1rP7wz2__400x400.jpg",
+		"project_url": "https://sporting.gg"
+	},
+	{
+		"name": "Tapcash",
+		"description": "digital cash, for everyone.",
+		"tags": [
+			"Payments",
 			"Wallet"
 		],
-		"image_url": "https://pbs.twimg.com/profile_images/1612378388555091968/1lD4q5R9_400x400.jpg",
-		"project_url": "https://solflare.com"
+		"image_url": "https://pbs.twimg.com/profile_images/1629155016971030529/jEC8j0eE_400x400.jpg",
+		"project_url": "https://tapcash.app"
+	},
+	{
+		"name": "Solscan",
+		"description": "The user-friendly and real-time update Scanning Tool for the Solana-ecosystem.",
+		"tags": [
+			"Explorer"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg",
+		"project_url": "https://solscan.io"
+	},
+	{
+		"name": "Solana FM",
+		"description": "Home to the friendliest Block Explorer on Solana.",
+		"tags": [
+			"Explorer"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1630506336067919872/dLhtW-Oi_400x400.png",
+		"project_url": "https://solana.fm"
+	},
+	{
+		"name": "X-RAY",
+		"description": "On a mission to make Solana the most human-readable blockchain.",
+		"tags": [
+			"Explorer"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1631559274672570368/jCn0Pvj7_400x400.jpg",
+		"project_url": "https://xray.helius.xyz"
+	},
+	{
+		"name": "Step Finance",
+		"description": "Solana Portfolio and Data Insights Dashboard.",
+		"tags": [
+			"Analytics",
+			"Portfolio management"
+		],
+		"image_url": "https://pbs.twimg.com/profile_images/1475429797694218242/ThXbtC9p_400x400.jpg",
+		"project_url": "https://step.finance"
 	}
 ]

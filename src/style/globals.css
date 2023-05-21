@@ -75,7 +75,10 @@ a {
 
 .breadcrumbs-title {
   margin-left: 20px;
-  font-family: "inter tight semibold";
+  font-family: "inter tight medium";
 }
 
+.breadcrumbs-title span{
+  color: rgb(48, 124, 255);
+}
 
