@@ -68,8 +68,11 @@
 	},
 	{
 		"name": "Phantom",
-		"description": "The -wallet for everyone.",
+		"description": "The web3-wallet for everyone.",
 		"tags": [
+			"web3",
+			"multichain",
+			"swap",
 			"Wallet"
 		],
 		"image_url": "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
