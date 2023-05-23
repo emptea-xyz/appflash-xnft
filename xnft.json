@@ -3,9 +3,9 @@
   "storage": "aws",
   "name": "Emptea Catalog",
   "version": "1.0.0",
-  "description": "Every dApp in one place.",
+  "description": "Emptea Catalog manages products.",
   "website": "https://emptea.xyz",
-  "tag": "social",
+  "tag": "none",
   "contact": "https://twitter.com/empteaxyz",
   "entrypoints": {
     "default": {
@@ -13,7 +13,10 @@
     }
   },
   "icon": {
-    "md": "./assets/dual_logo.png"
+    "md": "./assets/icon.png"
   },
-  "screenshots": ["./assets/DF_Backpack.png"]
+  "screenshots": [
+    "./assets/demo-1.png",
+    "./assets/demo-2.png"
+  ]
 }

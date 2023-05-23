@@ -1,16 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCopy,
-  faFilter,
-  faGlobe,
   faQuestion,
   faRandom,
-  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import CircularProgress from "@mui/material/CircularProgress";
-import data from "../assets/data.json";
 
 export default function Home() {
   const [allItems, setAllItems] = useState<

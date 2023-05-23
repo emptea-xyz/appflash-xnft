@@ -64,6 +64,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: left;
+  z-index: 1000;
 
   margin: 0;
   padding: 0;

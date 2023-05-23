@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .home {
     margin: 0;
     padding: 0;
@@ -7,24 +7,18 @@
   }
 
   .search-bar-container {
-    position: fixed;
-    top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    z-index: 1000;
-
     width: 100vw;
+
     height: 10vh;
     margin: 0;
     padding: 0;
-
-    background-color: white;
   }
 
   .search-bar input[type="text"] {
-    width: 80vw;
+    width: 50vw;
     padding: 10px;
 
     border: 0px solid rgb(0, 0, 0);
@@ -35,23 +29,79 @@
     outline: none;
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .items {
+
+  .search-bar .filter-button {
+    width: 10vw;
+
+    margin-right: 10px;
+    padding: 10px;
+
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .search-bar .search-button {
+    width: 10vw;
+
+    margin-left: 10px;
+    padding: 10px;
+
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+  }
+
+  .blender-top {
+    position: fixed;
+    top: 20vh;
+    left: 0;
+
+    z-index: 2;
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 20px;
+
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  }
+  .blender-bottom {
     position: relative;
-    top: 10vh;
+    top: -19px;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 20px;
+
+    background: linear-gradient(rgba(255, 0, 0, 0), rgb(255, 255, 255));
+  }
+  .items {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 80vh;
+
+    height: calc(75vw + 90px);
     overflow-y: scroll;
+  }
+  .spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(75vw + 90px);
   }
   .items-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     align-items: center;
     margin-top: 40px;
   }
   .item {
-    width: 8vw;
+    width: 30vw;
   }
 
   .item-image {
@@ -70,8 +120,8 @@
   }
 
   .item-image img {
-    width: 5vw;
-    height: 5vw;
+    width: 15vw;
+    height: 15vw;
 
     border-radius: 10px;
     filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.2));
@@ -91,18 +141,11 @@
   }
 
   .socials {
-    position: fixed;
-    bottom: 0;
-    z-index: inherit;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 100vw;
     height: 10vh;
-
-    background-color: white;
   }
 
   .socials button {
@@ -133,7 +176,7 @@
     overflow-y: scroll;
 
     width: calc(100vw - 30px);
-    height: calc(100vh - 30vh - 5px);
+    height: calc(100vh - 10vh - 25px);
 
     margin-bottom: 15px;
     background-color: white;
@@ -141,11 +184,11 @@
   }
 
   .details-panel-image img {
-    width: 10vw;
-    height: 10vw;
+    width: 30vw;
+    height: 30vw;
 
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 
     border-radius: 20px;
     filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.2));
@@ -153,18 +196,18 @@
 
   .details-panel-name {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
 
     font-family: "inter tight semibold";
-    font-size: 36px;
+    font-size: 24px;
     color: black;
   }
   .details-panel-description {
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 
     font-family: "inter tight medium";
-    font-size: 18px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
 
     max-width: calc(100vw - 30px - 20px - 20px);
@@ -176,10 +219,10 @@
     align-items: center;
     justify-content: left;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 
     font-family: "inter tight medium";
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(187, 49, 146);
   }
   .details-panel-link:active {
@@ -199,10 +242,10 @@
     text-align: center;
 
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 20px;
 
-    width: calc(100vw - 30px - 60px - 60px);
+    width: calc(100vw - 30px - 40px - 40px);
     height: 20vh;
 
     background-color: rgba(0, 0, 0, 0.1);
@@ -229,8 +272,7 @@
     height: calc(50vh - 10vh - 25px);
 
     margin-bottom: 15px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     background-color: white;
     border-radius: 20px;
   }
